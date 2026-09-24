@@ -18,6 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate application and content
+        run: node check.mjs
       - uses: actions/configure-pages@v5
         with:
           # Create/configure the Pages site when repository settings have not

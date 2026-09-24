@@ -2,9 +2,11 @@
 
 Status: publishing contract. No bank has been authored or verified yet.
 
+The repository now contains a coverage matrix and a content workspace. Those files define the work; they do not themselves constitute questions or complete exam coverage.
+
 ## Scope and honesty
 
-Start with a manageable reviewed history collection. Add pedagogy and other subjects only with suitable sources and review. Show actual topic/question counts and label the collection as a starter practice bank.
+The planned complete scope is BPSC TRE Classes 6–8 and 9–10, CTET Papers I and II, and UGC NET History. Start with a manageable reviewed collection across all required subjects, including pedagogy, languages, mathematics, environmental studies, science, social science, and Bihar-specific content where the official syllabus requires it. Add subjects only with suitable sources and review. Show actual topic/question counts and label an incomplete collection as a starter practice bank.
 
 Track tags express relevance, not evidence that an item appeared in an exam. A learner's degree does not establish eligibility, paper selection, or complete content coverage.
 

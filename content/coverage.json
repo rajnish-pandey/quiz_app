@@ -1,0 +1,53 @@
+{
+  "version": "2026-09",
+  "note": "Coverage map for planning and validation. A topic is complete only when reviewed bilingual questions exist for it.",
+  "profiles": {
+    "sister": {
+      "tracks": {
+        "ctet-paper-1": ["child-development-pedagogy", "language-1", "language-2", "mathematics", "environmental-studies"],
+        "ctet-paper-2-math-science": ["child-development-pedagogy", "language-1", "language-2", "mathematics", "science"],
+        "ctet-paper-2-social-science": ["child-development-pedagogy", "language-1", "language-2", "social-science"],
+        "bpsc-tre-6-8": ["child-development-pedagogy", "language-1", "language-2", "mathematics", "science", "social-science"],
+        "bpsc-tre-9-10": ["child-development-pedagogy", "language-1", "language-2", "subject-history", "subject-geography", "subject-economics", "subject-political-science"],
+        "ugc-net-history": ["net-paper-1", "net-history"]
+      }
+    },
+    "brother": {
+      "tracks": {
+        "upsc-general-studies": ["upsc-history", "upsc-geography", "upsc-polity", "upsc-economy", "upsc-environment", "upsc-science-tech", "upsc-current-affairs", "upsc-ethics"],
+        "bpsc-general-studies": ["bpsc-history", "bpsc-bihar", "bpsc-geography", "bpsc-polity", "bpsc-economy", "bpsc-science", "bpsc-current-affairs", "bpsc-mental-ability"]
+      }
+    }
+  },
+  "subjects": {
+    "child-development-pedagogy": ["development-and-learning", "inclusive-education", "learning-and-pedagogy", "assessment"],
+    "language-1": ["comprehension", "language-pedagogy", "grammar-and-vocabulary"],
+    "language-2": ["comprehension", "language-pedagogy", "grammar-and-vocabulary"],
+    "mathematics": ["number-system", "arithmetic", "geometry", "mensuration", "data-handling", "mathematics-pedagogy"],
+    "environmental-studies": ["family-and-community", "food-and-shelter", "water-and-travel", "things-we-make-and-do", "evs-pedagogy"],
+    "science": ["food-and-materials", "living-world", "motion-and-force", "electricity-and-magnets", "natural-resources", "science-pedagogy"],
+    "social-science": ["history", "geography", "social-and-political-life", "economics", "social-science-pedagogy"],
+    "subject-history": ["ancient-india", "medieval-india", "modern-india", "world-history", "culture-and-heritage", "historiography"],
+    "subject-geography": ["physical-geography", "india-geography", "human-geography", "resources-and-environment"],
+    "subject-economics": ["microeconomics", "macroeconomics", "indian-economy", "development"],
+    "subject-political-science": ["constitution", "governance", "political-theory", "international-relations"],
+    "net-paper-1": ["teaching-aptitude", "research-aptitude", "reading-comprehension", "communication", "reasoning", "data-interpretation", "ict", "people-and-environment", "higher-education"],
+    "net-history": ["sources-and-archaeology", "ancient-india", "early-medieval-india", "medieval-india", "modern-india", "world-history", "historiography", "culture"],
+    "upsc-history": ["ancient-india", "medieval-india", "modern-india", "world-history", "culture"],
+    "upsc-geography": ["physical-geography", "india-geography", "world-geography", "human-geography"],
+    "upsc-polity": ["constitution", "governance", "social-justice", "international-relations"],
+    "upsc-economy": ["macroeconomics", "indian-economy", "inclusive-growth", "budget-and-survey"],
+    "upsc-environment": ["ecology", "biodiversity", "climate-change", "environmental-governance"],
+    "upsc-science-tech": ["basic-science", "space", "defence", "biotechnology", "digital-technology"],
+    "upsc-current-affairs": ["national", "international", "reports-and-indices", "schemes"],
+    "upsc-ethics": ["ethics-and-human-interface", "attitude", "emotional-intelligence", "probity"],
+    "bpsc-history": ["ancient-india", "medieval-india", "modern-india", "national-movement"],
+    "bpsc-bihar": ["bihar-history", "bihar-geography", "bihar-polity", "bihar-economy", "bihar-culture"],
+    "bpsc-geography": ["india-geography", "bihar-geography", "physical-geography", "resources"],
+    "bpsc-polity": ["constitution", "governance", "bihar-administration", "local-government"],
+    "bpsc-economy": ["indian-economy", "bihar-economy", "development", "planning"],
+    "bpsc-science": ["basic-science", "health", "agriculture", "environment"],
+    "bpsc-current-affairs": ["bihar", "national", "international", "schemes-and-reports"],
+    "bpsc-mental-ability": ["logical-reasoning", "numerical-ability", "data-interpretation"]
+  }
+}

@@ -1,6 +1,10 @@
 # Implementation and verification plan
 
-Status: documentation milestone complete; application milestones pending. Checkboxes reflect verified work, not intent.
+Status: documentation, working static app, validated content loader, and deployment gate are implemented; full syllabus content remains in progress. Checkboxes reflect verified work, not intent.
+
+## Current verified audit
+
+Last local audit: 2026-09-25. `node check.mjs` passed with 11 packs, 84 bilingual questions, zero validation errors, and all required static files present. The coverage report currently maps 104 of 133 planned topic groups (78%). This is evidence of the current repository state, not a claim of complete exam coverage.
 
 ## Milestone 0 — Documentation
 
@@ -23,6 +27,8 @@ Exit: both learners can enter, change language, and reload with independent pref
 
 - [ ] Implement question/source schema and build-time validation.
 - [ ] Author/review a starter bank and document actual coverage.
+- [ ] Replace the prototype bank with validated packs for every track in `content/coverage.json`.
+- [ ] Add a content validator that reports coverage, missing translations, duplicate IDs, invalid answers, and missing sources.
 - [ ] Add filters, unique capped selection, and stable ordering.
 - [ ] Implement learning/timed modes, navigation, guesses, and review flags.
 - [ ] Persist active sessions and implement idempotent submission.

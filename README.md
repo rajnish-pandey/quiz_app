@@ -16,6 +16,8 @@ A bilingual study companion for a Hindi-medium history graduate preparing for CT
 
 The first question bank will be a clearly labeled starter collection of original practice questions. It will not be presented as complete syllabus coverage or as official previous-year papers.
 
+The full planned coverage matrix is tracked in [content/coverage.json](content/coverage.json). It covers both learner curricula, all requested CTET/BPSC/UPSC/NET tracks, and subject-level topic groups. A topic is considered complete only after reviewed bilingual questions are added and validated.
+
 ## Documentation
 
 | Document | Purpose |
@@ -39,6 +41,8 @@ The app is dependency-free for this first slice: `index.html`, `styles.css`, and
 
 Run locally with `python -m http.server 8080`, then open `http://localhost:8080/`.
 
+Run the repository checks with `node check.mjs`. This verifies required static files, JavaScript syntax, question-pack structure/provenance, and the current syllabus coverage report.
+
 ## Data and hosting
 
 Profiles will be local conveniences, not authenticated accounts. Progress belongs to the current browser and device. Clearing browser storage can erase it; backups are essential. Automatic synchronization between devices is outside the first release.
@@ -47,8 +51,8 @@ Code and bundled content served by GitHub Pages are publicly downloadable. Perso
 
 ## Open decisions
 
-- Sister's exact BPSC TRE teaching level and subject, and confirmation of CTET paper.
-- Brother's target exams and subjects.
+- Sister's BPSC TRE scope is confirmed as Classes 6–8 and 9–10. Both CTET papers are in scope. Exact optional language choices remain configurable.
+- Brother's target: UPSC and BPSC compulsory General Studies subjects, excluding optional subjects.
 - Final product name and personalized profile names.
 
 These do not block the shared foundation. They do block claims that a track is a complete or exact mock examination.

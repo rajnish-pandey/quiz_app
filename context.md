@@ -6,7 +6,7 @@ Last updated: 2026-09-24.
 
 Build and eventually deploy an exam-preparation quiz app end to end. The user specifically requested documentation before application implementation. GitHub Pages compatibility is a primary constraint.
 
-The sister graduated with history and completed an MA in History (MAH) from IGNOU. She is preparing for CBSE CTET and BPSC TRE and also intends to target NET. She studies in Hindi. The brother studies in English and will also use the app; his exam targets have not been specified.
+The sister graduated with history and completed an MA in History (MAH) from IGNOU. She is preparing for CBSE CTET and BPSC TRE and also intends to target NET. She studies in Hindi. The brother studies in English and will use a separate profile targeting UPSC and BPSC compulsory General Studies subjects, excluding optional subjects.
 
 ## Confirmed requirements
 
@@ -34,8 +34,8 @@ These are implementation choices, not additional facts supplied by the user. Det
 | Unknown | Interim behavior |
 | --- | --- |
 | Sister's CTET paper | Clearly labeled CTET-oriented practice; no claim of an exact paper simulation |
-| BPSC TRE level and subject | Configurable filters; no assumed secondary or higher-secondary pattern |
-| Brother's exams | Either profile can select any available track |
+| BPSC TRE level and subject | Fixed scope: Classes 6–8 and 9–10; subject coverage is syllabus-mapped rather than history-only |
+| Brother's exams | UPSC and BPSC compulsory General Studies subjects; optional subjects excluded |
 | Personalized names | Editable neutral profile labels |
 | Comprehensive content source | Publish only questions that complete content review |
 
