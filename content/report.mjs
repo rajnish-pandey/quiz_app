@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-const here = path.dirname(new URL(import.meta.url).pathname).replace(/^\//, '').replace(/^([A-Za-z]):/, '$1:');
+import { fileURLToPath } from 'node:url';
+const here = path.dirname(fileURLToPath(import.meta.url));
 const coverage = JSON.parse(fs.readFileSync(path.join(here, 'coverage.json'), 'utf8'));
 const packDir = path.join(here, 'packs');
 const files = fs.readdirSync(packDir).filter(f => f.endsWith('.json'));
