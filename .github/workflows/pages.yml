@@ -19,6 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+        with:
+          # Create/configure the Pages site when repository settings have not
+          # initialized it yet. The repository still must be public or have a
+          # plan that supports private Pages.
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
